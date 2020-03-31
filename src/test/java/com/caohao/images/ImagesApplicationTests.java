@@ -11,23 +11,23 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class ImagesApplicationTests {
 
-    @Autowired
-    FdfsUtil fdfsUtil;
-    @Autowired
-    UserService userService;
-    @Autowired
-    FastFileStorageClient fastFileStorageClient;
-    @Test
-    void contextLoads() {
-        User user = userService.loginCheck("test", "123456");
-        System.out.println(user);
-    }
-    @Test
-    void contextLoads1() {
-        fastFileStorageClient.deleteFile("group1","M00/00/00/rBEwmV6BSfaARYtpAAUR-s0cLvA085.jpg");
-
-
-        // FdfsUtil.uploadImage();
-    }
+//    @Autowired
+//    FdfsUtil fdfsUtil;
+//    @Autowired
+//    UserService userService;
+//    @Autowired
+//    FastFileStorageClient fastFileStorageClient;
+//    @Test
+//    void contextLoads() {
+//        User user = userService.loginCheck("test", "123456");
+//        System.out.println(user);
+//    }
+//    @Test
+//    void contextLoads1() {
+//        fastFileStorageClient.deleteFile("group1","M00/00/00/rBEwmV6BSfaARYtpAAUR-s0cLvA085.jpg");
+//
+//
+//        // FdfsUtil.uploadImage();
+//    }
 
 }

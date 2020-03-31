@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 @Controller
 public class ImageController {
@@ -44,4 +45,5 @@ public class ImageController {
         imageService.deleteImage(imageId);
         return "redirect:/index/1";
     }
+
 }

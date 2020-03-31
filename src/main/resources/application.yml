@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: pro
+    active: dev
   thymeleaf:
     mode: HTML
 mybatis-plus:
